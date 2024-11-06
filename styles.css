@@ -1,0 +1,87 @@
+/* Definições globais */
+body {
+    color: white;
+    background: #121212; /* Fundo escuro para dar mais destaque */
+    margin: 0;
+    font-family: 'Rock Salt', cursive; /* Fonte estilizada para o tema Naruto */
+    margin-bottom: 100px;
+}
+
+/* Cabeçalho */
+header {
+    background: #FF9A00; /* Cor laranja vibrante */
+    border-bottom: solid 3px #000000; /* Borda preta */
+    padding: 20px;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    position: relative;
+}
+
+header .logo {
+    position: absolute;
+    left: 20px;
+    height: 50px;
+    width: auto;
+}
+
+/* Seção de chamada (banner) */
+.chamada {
+    background: #FBD82B; /* Cor amarela da Vila da Folha */
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    color: #333;
+    border-bottom: 3px solid #FF9A00;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: #E27D3A; /* Laranja de Naruto */
+}
+
+p {
+    font-size: 20px;
+}
+
+/* Seção de categorias (video thumbnails) */
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria-videos img {
+    opacity: 0.8;
+    height: 200px;
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Sombra nas imagens */
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid #FF9A00; /* Borda laranja na imagem quando passar o mouse */
+    transform: scale(1.05); /* Efeito de zoom nas imagens */
+}
+
+.categoria h2 {
+    color: #FF9A00; /* Título laranja, cor vibrante */
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
